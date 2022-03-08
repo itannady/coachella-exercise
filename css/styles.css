@@ -1,3 +1,66 @@
+.hero-image
+    {
+        background: url('../img/bg.jpeg') no-repeat;
+        height: 300px;
+        background-size: cover;
+        background-position: center -185px;
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+.hero-text
+    {
+        margin-top: 0px;
+        padding-top: 0px;
+        font-weight: bold;
+    }
+
+.container
+    {
+        width: 100%;
+        display: flex;
+        justify-content: center
+    }
+.artist-section
+    {
+        background-color: #87ceeb;
+        width: 75%;
+        justify-content: center;
+        object-position: 100px;
+        text-align: center;
+    }
+
+h2
+    {
+        margin-top: 0px;
+    }
+.artists
+    {
+        display: flex;
+        justify-content: space-around;
+        text-align: left;
+        margin-bottom: 30px;
+        
+    }
+
+    .poloroid
+    {
+        background-color: #fef587;
+        border: solid 1px;
+    }
+
+.artist-image
+    {
+        width: 200px;
+        margin: 10px;
+    }
+
+.artist-text
+    {
+        margin: 10px;
+    }
+
 body {
   margin: 0;
   padding: 0;
