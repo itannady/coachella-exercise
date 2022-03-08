@@ -60,3 +60,33 @@ h2
     {
         margin: 10px;
     }
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#about {
+  background-color: #fded6a;
+  padding: 4% 3% 4% 3%;
+}
+
+.relative {
+  position: relative;
+  width: 95vw;
+  background-color: #faa401;
+}
+
+.absolute {
+  position: absolute;
+  width: 95vw;
+  background-color: #f71503;
+}
+
+.fixed {
+  position: fixed;
+  width: 95vw;
+  background-color: #1e8001;
+  bottom: 450px;
+}
+
